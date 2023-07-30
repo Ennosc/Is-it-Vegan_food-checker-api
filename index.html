@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Food Checker</title>
+		<script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Food Checker</title>
+	</head>
+	<body>
+		<h4>Example Barcodes: 5053827156219 | 737628064502 | 041196910759 |</h4>
+		<h1>Is it Vegan?</h1>
+		<h3 id="result"></h3>
+		<label for="barcode">Enter a UPC barcode number</label>
+		<input type="number" name="barcode" value="" id="barcode" pattern="[0-9]*">
+		<button type="button" name="button">Results</button>
+		<button type="button" name="button" id="reload">Scan</button>
+		<div id="reader" style="width: 600px;" class=""></div>
+		
+		<div id="res"></div>
+
+		<img src="" alt="" id="product-img">
+		<h2 id="product-name"></h2>
+		<table id="ingredient-table">
+			<tr>
+				<th>Ingredient</th>
+				<th>Vegetarian</th>
+				<th>Vegan</th>
+			</tr>
+		</table>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,85 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 120vh;
+  background-color: rgb(50, 50,50);
+  color: rgb(213, 196, 196);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h4{
+  margin: 0;
+  font-size: 0.8rem;
+  text-align: left;
+}
+input{
+  width: 200px;
+}
+
+button{
+  margin: 20px auto;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+h2{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+table{
+  margin: 0 auto;
+}
+td{
+  border: 1px solid ;
+  
+}
+th{
+  font-size: 1.4rem;
+}
+.non-veg-item{
+  background-color: red;
+  color: rgb(50, 50, 50);
+}
+.unknown-maybe-item{
+  background-color: yellow;
+  color: rgb(50, 50, 50);
+}
+.vegan{
+  background-color: green;
+  color: rgb(50, 50, 50);
+}
+
+#reader{
+  width: 600px;
+}
+#res{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.hide{
+  display: none;
+}
+#reader{
+  margin: 0 auto;
+  border: 0px solid red;
+  
+}
